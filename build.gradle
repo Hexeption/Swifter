@@ -44,7 +44,7 @@ version = minecraft_version + "-b" + cibuild + "-univeral"
 archivesBaseName = cibasename
 
 if(hasProperty("teamcity")){
-    version = minecraft_version = "-" + teamcity["build.number"] + "-universal"
+    version = minecraft_version + "-" + teamcity["build.number"] + "-universal"
 }
 
 minecraft {
