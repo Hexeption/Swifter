@@ -1,4 +1,4 @@
-task devJar(type: jar) {
+task devJar(type: Jar) {
 
     from(sourceSets.main.output) {
         include "assets/**"

@@ -11,9 +11,9 @@ task installMods(type: Copy, dependsOn: "deInstalMods") {
     into file(minecraft.runDir + "/mods")
 }
 
-task deInstallMods(type: Delete){
-    delete fileTree(dir: minecraft.runDir + "/mods", include:  "*.jar")
+task deInstallMods(type: Delete) {
+    delete fileTree(dir: minecraft.runDir + "/mods", include: "*.jar")
 }
 
-tasks.setupDecompileWorkspace.dependsOn installMods
+tasks.setupDecompWorkspace.dependsOn installMods
 tasks.setupDevWorkspace.dependsOn installMods
