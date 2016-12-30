@@ -5,7 +5,7 @@ repositories {
     //TODO: Make a mod repo
     maven {
         name "Mods"
-        url "http://dl.tsr.me/artifactory/libs-release//"
+        url "http://dl.tsr.me/artifactory/libs-release/"
     }
 }
 

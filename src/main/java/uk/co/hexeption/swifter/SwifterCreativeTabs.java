@@ -34,7 +34,7 @@ public class SwifterCreativeTabs {
         @Override
         public ItemStack getTabIconItem() {
 
-            return Items.BUCKET.getDefaultInstance();
+            return uk.co.hexeption.swifter.items.Items.ITEM_ORE_INGOT.getStack();
         }
 
         @Override

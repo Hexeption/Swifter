@@ -1,5 +1,6 @@
 package uk.co.hexeption.swifter.proxy;
 
+import uk.co.hexeption.swifter.blocks.Blocks;
 import uk.co.hexeption.swifter.items.Items;
 
 /**
@@ -10,6 +11,7 @@ public class CommonProxy implements IProxy {
     @Override
     public void registerBlocks() {
 
+        Blocks.registerBlocks();
     }
 
     @Override

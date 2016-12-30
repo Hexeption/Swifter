@@ -1,0 +1,34 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube_all",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "inventory": [
+      {}
+    ],
+    "material": {
+      "copper": {
+        "textures": {
+          "all": "swifter:blocks/ores/ores/copper"
+        }
+      },
+      "tin": {
+        "textures": {
+          "all": "swifter:blocks/ores/ores/tin"
+        }
+      },
+      "lead": {
+        "textures": {
+          "all": "swifter:blocks/ores/ores/lead"
+        }
+      },
+      "steel": {
+        "textures": {
+          "all": "swifter:blocks/ores/ores/steel"
+        }
+      }
+    }
+  }
+}

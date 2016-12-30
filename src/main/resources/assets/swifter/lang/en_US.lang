@@ -1,0 +1,22 @@
+## Creative Tabs
+itemGroup.swifter.general=Swifter General
+itemGroup.swifter.materials=Swifter Materials
+itemGroup.swifter.fluids=Swifter Fluids
+
+##Ingots
+item.swifter.ore_ingot.copper.name=Copper Ingot
+item.swifter.ore_ingot.tin.name=Tin Ingot
+item.swifter.ore_ingot.lead.name=Lead Ingot
+item.swifter.ore_ingot.steel.name=Steel Ingot
+
+
+##Dust
+item.swifter.ore_dust.copper.name=Copper Dust
+item.swifter.ore_dust.tin.name=Tin Dust
+item.swifter.ore_dust.lead.name=Lead Dust
+item.swifter.ore_dust.steel.name=Steel Dust
+
+##Ore
+
+##IngotBlocks
+
