@@ -1,5 +1,7 @@
 package uk.co.hexeption.swifter.proxy;
 
+import uk.co.hexeption.swifter.items.Items;
+
 /**
  * Created by Hexeption on 29/12/2016.
  */
@@ -12,6 +14,8 @@ public class CommonProxy implements IProxy {
 
     @Override
     public void registerItems() {
+
+        Items.registerItems();
 
     }
 

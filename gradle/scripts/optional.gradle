@@ -2,7 +2,7 @@ task wrapper(type: Wrapper) {
     gradleVersion = "2.4"
 }
 
-task installMods(type: Copy, dependsOn: "deInstalMods") {
+task installMods(type: Copy, dependsOn: "deInstallMods") {
     from {
         configurations.mods
     }

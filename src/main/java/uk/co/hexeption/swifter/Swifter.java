@@ -21,13 +21,19 @@ import java.util.concurrent.TimeUnit;
  */
 
 @Mod(modid = ModInfo.MOD_ID, name = ModInfo.MOD_NAME, version = ModInfo.VERSION_BUILD)
-public class Swifter {
+public enum Swifter {
 
     /**
      * Mod Instance
      */
-    @Mod.Instance
-    public static Swifter instance;
+
+    INSTANCE;
+
+    @Mod.InstanceFactory
+    public static Swifter getInstance() {
+
+        return INSTANCE;
+    }
 
     /**
      * Mod Proxys
